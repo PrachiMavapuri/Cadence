@@ -1,0 +1,6 @@
+{
+  "name": "Cadence — Team Project & Task Management",
+  "description": "Production-grade full-stack team project and task management platform with JWT authentication, role-based access control, Kanban boards, real-time Socket.IO updates, and activity auditing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

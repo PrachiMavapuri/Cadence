@@ -1,0 +1,10 @@
+export class AppError extends Error {
+  constructor(message, statusCode = 500, code = 'INTERNAL_ERROR', errors = undefined) {
+    super(message);
+    this.statusCode = statusCode;
+    this.code = code;
+    this.errors = errors;
+    this.isOperational = true;
+    Object.setPrototypeOf(this, AppError.prototype);
+  }
+}
